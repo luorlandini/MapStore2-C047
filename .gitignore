@@ -21,7 +21,6 @@ target
 MANIFEST
 # dist
 
-# geonode_mapstore_client/static/geonode_mapstore_client
 package-lock.json
 #dist/
 
