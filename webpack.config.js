@@ -1,6 +1,6 @@
 const path = require("path");
 
-const themeEntries = require('./MapStore2/build/themes.js').themeEntries;
+
 const extractThemesPlugin = require('./MapStore2/build/themes.js').extractThemesPlugin;
 const ModuleFederationPlugin = require('./MapStore2/build/moduleFederation').plugin;
 const port = "8080";
@@ -15,7 +15,9 @@ module.exports = require('./MapStore2/build/buildConfig')(
         'geostory-embedded': path.join(__dirname, "js", "geostoryEmbedded"),
         "dashboard-embedded": path.join(__dirname, "js", "dashboardEmbedded")
     },
-    themeEntries,
+    {
+        'themes/default': path.join(__dirname, "themes", "default", "theme.less")
+    },
     {
         base: __dirname,
         dist: path.join(__dirname, "dist"),
@@ -24,13 +26,14 @@ module.exports = require('./MapStore2/build/buildConfig')(
     },
     [extractThemesPlugin, ModuleFederationPlugin],
     false,
-    undefined,
+    "/dist/",
     '.ClevelandMetropark',
-    [],
+    null,
     {
         "@mapstore/patcher": path.resolve(__dirname, "node_modules", "@mapstore", "patcher"),
         "@mapstore": path.resolve(__dirname, "MapStore2", "web", "client"),
-        "@js": path.resolve(__dirname, "js")
+        "@js": path.resolve(__dirname, "js"),
+        "translations": path.resolve(__dirname, "translations")
     },
     {
         '/rest/geostore': {

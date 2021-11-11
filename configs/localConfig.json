@@ -596,8 +596,19 @@
             "cfg": {
                 "enableContextManager": true
             }
-        }, "Login","Language", "NavMenu", "Attribution", "ScrollTop", "Notifications"],
-        "maps": ["HomeDescription", "Fork", "MapSearch", "CreateNewMap", "FeaturedMaps", "ContentTabs",
+        },
+        {
+          "name": "Attribution",
+            "cfg": {
+              "src": "assets/img/image2vector.svg",
+              "label": "Cleveland metropark",
+              "href": "#"
+            }
+        },
+        "Login","Language", "NavMenu", "Attribution", "ScrollTop", "Notifications"],
+
+
+        "maps": ["HomeDescription", "MapSearch", "CreateNewMap", "FeaturedMaps", "ContentTabs",
 
           {
             "name": "Maps",
