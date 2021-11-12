@@ -109,12 +109,14 @@ import ZoomOutPlugin from '@mapstore/plugins/ZoomOut';
 
 import ReactSwipe from 'react-swipeable-views';
 import SwipeHeader from '@mapstore/components/data/identify/SwipeHeader';
+import { FooterPlugin } from './plugins/Footer';
 
 export default {
     plugins: {
         // product plugins
         NavMenu,
         AboutPlugin,
+        FooterPlugin,
         // framework  plugin
         AddGroupPlugin,
         AnnotationsPlugin,

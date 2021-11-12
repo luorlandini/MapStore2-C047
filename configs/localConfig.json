@@ -608,7 +608,10 @@
         "Login","Language", "NavMenu", "Attribution", "ScrollTop", "Notifications"],
 
 
-        "maps": ["HomeDescription", "MapSearch", "CreateNewMap", "FeaturedMaps", "ContentTabs",
+        "maps": [{"name": "HomeDescription", "cfg": { "name": "Cleveland Metropark" } },
+
+
+          "MapSearch", "CreateNewMap", "FeaturedMaps", "ContentTabs",
 
           {
             "name": "Maps",
@@ -649,7 +652,7 @@
               "fluid": true
             }
           }
-          , "MailingLists", "Footer", {
+          ,  "Footer", {
           "name": "Cookie",
           "cfg": {
             "externalCookieUrl" : "",
