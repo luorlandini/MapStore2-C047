@@ -14,7 +14,7 @@ const ConfigUtils = require('@mapstore/utils/ConfigUtils').default;
  *
  * ConfigUtils.setConfigProp('translationsPath', ['./MapStore2/web/client/translations', './translations']);
  */
-ConfigUtils.setConfigProp('translationsPath', ['./MapStore2/web/client/translations', '/translations']);
+ConfigUtils.setConfigProp('translationsPath', ['./MapStore2/web/client/translations', './translations']);
 ConfigUtils.setConfigProp('themePrefix', 'ClevelandMetropark');
 
 /**
