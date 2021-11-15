@@ -1,0 +1,10 @@
+{
+    "locale": "en-US",
+    "messages": {
+        "home": {
+            "shortDescription": "Explore 18 reservations spanning more than 24,000 acres with more than 300 miles of trails, eight golf courses, eight lakefront parks and a nationally-acclaimed zoo.",
+            "footerDescription": "© 2021 Cleveland Metroparks. All Rights Reserved.",
+            "additionalInformation": "Additional Information"
+        }
+    }
+}
