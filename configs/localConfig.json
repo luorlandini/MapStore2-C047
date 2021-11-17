@@ -601,14 +601,14 @@
           "name": "Attribution",
             "cfg": {
               "src": "assets/img/image2vector.svg",
-              "label": "Cleveland metropark",
+              "label": "Cleveland Metroparks GIS Portal",
               "href": "#"
             }
         },
         "Login","Language", "NavMenu", "Attribution", "ScrollTop", "Notifications"],
 
 
-        "maps": [{"name": "HomeDescription", "cfg": { "name": "Cleveland Metropark" } },
+        "maps": [{"name": "HomeDescription", "cfg": { "name": "Cleveland Metroparks GIS Portal" } },
 
 
           "MapSearch", "CreateNewMap", "FeaturedMaps", "ContentTabs",

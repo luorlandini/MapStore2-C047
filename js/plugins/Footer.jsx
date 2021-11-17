@@ -39,13 +39,13 @@ class Footer extends React.Component {
             src,
             width: 140,
             height: 'auto',
-            href: 'https://www.google.com/',
-            title: 'GeoSolutions',
-            alt: 'GeoSolutions'
+            href: 'https://www.clevelandmetroparks.com/',
+            title: 'Cleveland metroparks',
+            alt: 'Cleveland metroparks'
         },
         additionalInformationOnLeft: [
             {
-                href: ' https://www.clevelandmetroparks.com/I',
+                href: ' https://www.clevelandmetroparks.com/',
                 text: 'Website',
                 icon: 'fa-window-maximize'
             },
@@ -118,22 +118,37 @@ class Footer extends React.Component {
                     </Row>
                 </Grid>
                 <Grid>
-                    {logo && logo.src && <Row>
+                    <Row>
                         <Col xs={12} className="text-center">
+                        </Col>
+                    </Row>
+                    {logo && logo.src && <Row>
+                        <Col xs={12} >
+                            <Col xs={2} >{}</Col>
+                            <Col xs={8} className="text-left footer-disclaimer">
+                                <HTML className="text-right" msgId="home.disclaimer"/>
+                            </Col>
+                            <Col xs={2}>{}</Col>
                         </Col>
                     </Row>}
                     <Row>
                         <Col xs={12} className="text-center">
-                            <Col xs={6} className="text-center">
-                                <div>
-                                    {href ? <a target="_blank" href={href}>
-                                        {image}
-                                    </a> : image}
-                                </div>
+                            <Col xs={2} >{}</Col>
+                            <Col xs={8} className="text-center">
+                                <Row>
+                                    <Col xs={12} className="text-center">
+                                        <Col xs={6} className="text-left">
+                                            {href ? <a target="_blank" href={href}>
+                                                {image}
+                                            </a> : image}
+                                        </Col>
+                                        <Col xs={6} className="text-right footer-description" >
+                                            <HTML className="text-right" msgId="home.footerDescription"/>
+                                        </Col>
+                                    </Col>
+                                </Row>
                             </Col>
-                            <Col xs={6} className="text-center footer-description">
-                                <HTML msgId="home.footerDescription"/>
-                            </Col>
+                            <Col xs={2}>{}</Col>
 
                         </Col>
                     </Row>
