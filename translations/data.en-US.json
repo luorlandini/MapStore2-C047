@@ -2,6 +2,7 @@
     "locale": "en-US",
     "messages": {
         "home": {
+            "shortDescription": "&nbsp;",
             "footerDescription": "© 2021 Cleveland Metroparks. All Rights Reserved.",
             "additionalInformation": "Additional Information",
             "disclaimer": "This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this GIS Portal for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this GIS Portal. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239"
