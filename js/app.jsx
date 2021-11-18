@@ -41,6 +41,7 @@ ConfigUtils.setLocalConfigurationFile('configs/localConfig.json');
  */
 const appConfig = require('../MapStore2/web/client/product/appConfig').default;
 
+
 /**
  * Define a custom list of plugins with:
  *

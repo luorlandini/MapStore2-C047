@@ -1,6 +1,5 @@
 const path = require("path");
 
-
 const extractThemesPlugin = require('./MapStore2/build/themes.js').extractThemesPlugin;
 const ModuleFederationPlugin = require('./MapStore2/build/moduleFederation').plugin;
 const port = "8080";
@@ -26,9 +25,9 @@ module.exports = require('./MapStore2/build/buildConfig')(
     },
     [extractThemesPlugin, ModuleFederationPlugin],
     false,
-    "/dist/",
+    undefined,
     '.ClevelandMetropark',
-    null,
+    [],
     {
         "@mapstore/patcher": path.resolve(__dirname, "node_modules", "@mapstore", "patcher"),
         "@mapstore": path.resolve(__dirname, "MapStore2", "web", "client"),

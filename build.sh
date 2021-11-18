@@ -10,7 +10,7 @@ npm run lint
 
 if [ $# -eq 0 ]
   then
-    mvn clean install -Dmapstore2.version=$VERSION -Pprinting
+    mvn clean install -Dmapstore2.version=$VERSION
   else
-    mvn clean install -Dmapstore2.version=$1 -Pprinting
+    mvn clean install -Dmapstore2.version=$1
 fi
