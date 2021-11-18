@@ -25,7 +25,7 @@ module.exports = require('./MapStore2/build/buildConfig')(
     paths,
     [extractThemesPlugin, ModuleFederationPlugin],
     false,
-    "/ClevelandMetropark/dist/",
+    "/mapstore/dist/",
     '.ClevelandMetropark',
     [
         new HtmlWebpackPlugin({
