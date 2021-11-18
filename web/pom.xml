@@ -76,7 +76,7 @@
   </dependencies>
 
   <build>
-    <finalName>ClevelandMetropark</finalName>
+    <finalName>mapstore</finalName>
     <plugins>
         <plugin>
             <artifactId>maven-resources-plugin</artifactId>
@@ -89,7 +89,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -109,7 +109,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -132,7 +132,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -155,7 +155,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -178,7 +178,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -201,7 +201,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -224,7 +224,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -254,7 +254,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark/dist</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore/dist</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -270,7 +270,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark/assets</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore/assets</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -286,7 +286,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark/</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore/</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -305,7 +305,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark/printing</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore/printing</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -324,7 +324,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark/MapStore2/web/client</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore/MapStore2/web/client</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -343,7 +343,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark/MapStore2/web/client/libs/cesium-navigation</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore/MapStore2/web/client/libs/cesium-navigation</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -359,7 +359,7 @@
                         <goal>copy-resources</goal>
                     </goals>
                     <configuration>
-                        <outputDirectory>${basedir}/target/ClevelandMetropark/MapStore2/web/client/configs</outputDirectory>
+                        <outputDirectory>${basedir}/target/mapstore/MapStore2/web/client/configs</outputDirectory>
                         <encoding>UTF-8</encoding>
                         <resources>
                             <resource>
@@ -524,7 +524,7 @@
                                 <configuration>
                                 <overWrite>true</overWrite>
                                 <sourceFile>src/printing/applicationContext-print.xml</sourceFile>
-                                <destinationFile>target/ClevelandMetropark/WEB-INF/classes/applicationContext-print.xml</destinationFile>
+                                <destinationFile>target/mapstore/WEB-INF/classes/applicationContext-print.xml</destinationFile>
                                 </configuration>
                             </execution>
                         </executions>
