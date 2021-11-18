@@ -46,6 +46,8 @@ hosts:
 brokenUrlPlaceholder: 'data:png,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII='
 disableScaleLocking: true
 
+disclaimer: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created:'
+
 layouts:
   #=======A4 portrait with legend=============================================
   A4 :
@@ -132,18 +134,18 @@ layouts:
               vertAlign: middle
         - !columns
           absoluteX: 30
-          absoluteY: 55
-          width: 395
-          widths: [240, 240]
+          absoluteY: 65
+          width: 550
+          widths: [440, 240]
           items:
             - !columns
               nbColumns: 1
               items:
                 - !text
                   width: 300
-                  text: '${now MM.dd.yyyy}'
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontEncoding: Cp1252
-                  fontSize: 9
+                  fontSize: 6
                   align: left
                   vertAlign: middle
             - !scalebar
@@ -213,9 +215,9 @@ layouts:
               rotation: '${rotation}'
         - !columns
           absoluteX: 30
-          absoluteY: 55
+          absoluteY: 65
           width: 782
-          widths: [240, 300, 240]
+          widths: [540, 440, 240]
           items:
             - !columns
               nbColumns: 1
@@ -229,9 +231,9 @@ layouts:
                   vertAlign: middle
                 - !text
                   width: 300
-                  text: '${now MM.dd.yyyy}'
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontEncoding: Cp1252
-                  fontSize: 9
+                  fontSize: 6
                   align: left
                   vertAlign: middle
             - !text
@@ -302,18 +304,18 @@ layouts:
               vertAlign: middle
         - !columns
           absoluteX: 30
-          absoluteY: 55
+          absoluteY: 65
           width: 535
-          widths: [240, 240]
+          widths: [740, 240]
           items:
             - !columns
               nbColumns: 1
               items:
                 - !text
                   width: 300
-                  text: '${now MM.dd.yyyy}'
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontEncoding: Cp1252
-                  fontSize: 9
+                  fontSize: 6
                   align: left
                   vertAlign: middle
             - !scalebar
@@ -357,7 +359,7 @@ layouts:
           absoluteX: 30
           absoluteY: 55
           width: 782
-          widths: [240, 300, 240]
+          widths: [640, 300, 240]
           items:
             - !columns
               nbColumns: 1
@@ -370,10 +372,10 @@ layouts:
                   align: left
                   vertAlign: middle
                 - !text
-                  width: 300
-                  text: '${now MM.dd.yyyy}'
+                  width: 400
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontEncoding: Cp1252
-                  fontSize: 9
+                  fontSize: 6
                   align: left
                   vertAlign: middle
             - !text
@@ -452,8 +454,8 @@ layouts:
               nbColumns: 1
               items:
                 - !text
-                  width: 300
-                  text: '${now MM.dd.yyyy}'
+                  width: 400
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontEncoding: Cp1252
                   fontSize: 9
                   align: left
@@ -550,9 +552,8 @@ layouts:
                   align: left
                   vertAlign: middle
                 - !text
-                  width: 300
-                  text: '${now MM.dd.yyyy}'
-                  fontEncoding: Cp1252
+                  width: 400
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontSize: 9
                   align: left
                   vertAlign: middle
@@ -690,18 +691,18 @@ layouts:
               vertAlign: middle
         - !columns
           absoluteX: 42
-          absoluteY: 50
+          absoluteY: 60
           width: 550
-          widths: [340, 424]
+          widths: [674, 324]
           items:
             - !columns
               nbColumns: 1
               items:
                 - !text
-                  width: 424
-                  text: '${now MM.dd.yyyy}'
+                  width: 524
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontEncoding: Cp1252
-                  fontSize: 9
+                  fontSize: 6
                   align: left
                   vertAlign: middle
             - !scalebar
@@ -773,7 +774,7 @@ layouts:
           absoluteX: 42
           absoluteY: 78
           width: 1105
-          widths: [340, 424, 340]
+          widths: [924, 324, 340]
           items:
             - !columns
               nbColumns: 1
@@ -786,10 +787,10 @@ layouts:
                   align: left
                   vertAlign: middle
                 - !text
-                  width: 424
-                  text: '${now MM.dd.yyyy}'
+                  width: 924
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontEncoding: Cp1252
-                  fontSize: 9
+                  fontSize: 8
                   align: left
                   vertAlign: middle
             - !text
@@ -862,16 +863,16 @@ layouts:
           absoluteX: 42
           absoluteY: 50
           width: 760
-          widths: [340, 424]
+          widths: [740, 224]
           items:
             - !columns
               nbColumns: 1
               items:
                 - !text
-                  width: 424
-                  text: '${now MM.dd.yyyy}'
+                  width: 500
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontEncoding: Cp1252
-                  fontSize: 9
+                  fontSize: 6
                   align: left
                   vertAlign: middle
             - !scalebar
@@ -914,24 +915,24 @@ layouts:
         - !columns
           absoluteX: 42
           absoluteY: 78
-          width: 1105
-          widths: [339, 424, 339]
+          width: 1200
+          widths: [580, 224, 339]
           items:
             - !columns
               nbColumns: 1
               items:
                 - !text
-                  width: 424
+                  width: 224
                   text: '${comment}'
                   fontEncoding: Cp1252
                   fontSize: 9
                   align: left
                   vertAlign: middle
                 - !text
-                  width: 424
-                  text: '${now MM.dd.yyyy}'
+                  width: 524
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontEncoding: Cp1252
-                  fontSize: 9
+                  fontSize: 6
                   align: left
                   vertAlign: middle
             - !text
@@ -940,7 +941,7 @@ layouts:
               fontSize: 14
               text: '${mapTitle}'
             - !scalebar
-              align: right
+              align: left
               vertAlign: middle
               maxSize: 200
               type: 'bar sub'
@@ -1010,8 +1011,8 @@ layouts:
               nbColumns: 1
               items:
                 - !text
-                  width: 424
-                  text: '${now MM.dd.yyyy}'
+                  width: 524
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontEncoding: Cp1252
                   fontSize: 9
                   align: left
@@ -1108,8 +1109,8 @@ layouts:
                   align: left
                   vertAlign: middle
                 - !text
-                  width: 424
-                  text: '${now MM.dd.yyyy}'
+                  width: 524
+                  text: 'This information is for display purposes only. Cleveland Metroparks makes no warranties, expressed or implied, with respect to the accuracy of and the use of this map for any specific purpose. Cleveland Metroparks expressly disclaims any liability that may result from the use of this map. Most data used is from public sources. For more information, please contact: Tom Kraft, Planner, 4101 Fulton Pkwy, Cleveland, Ohio 44144 (216) 635-3239 || Map Created: ${now MM.dd.yyyy}'
                   fontEncoding: Cp1252
                   fontSize: 9
                   align: left
